@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".MyTestReceiver">
+        <receiver android:name="MyTestReceiver">
             <intent-filter>
                 <action android:name="com.wipro.wiprobroadcastreceiversms.testbroadcast" />
             </intent-filter>

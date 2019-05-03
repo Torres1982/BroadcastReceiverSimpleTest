@@ -13,7 +13,7 @@
         android:layout_marginStart="@dimen/fifty_dp_margin"
         android:layout_marginEnd="@dimen/fifty_dp_margin"
         android:layout_marginTop="@dimen/thirty_dp_margin"
-        android:text="@string/send_sms"
+        android:text="@string/send_broadcast"
         android:textColor="@color/white"
         android:background="@drawable/border" />
 </LinearLayout>
