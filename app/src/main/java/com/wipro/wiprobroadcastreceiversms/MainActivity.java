@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
         sendMessageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                broadcastMessage();
+                registerBroadcastReceiver();
             }
         });
     }
 
     // Register Broadcast Receiver
-    private void broadcastMessage() {
+    private void registerBroadcastReceiver() {
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction("com.wipro.wiprobroadcastreceiversms.testbroadcast");
         broadcastReceiver = new MyTestReceiver();
