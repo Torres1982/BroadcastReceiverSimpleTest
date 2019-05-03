@@ -6,4 +6,8 @@
 3. Java
 
 ### Assessment Description:
-UNDER CONSTRUCTION !!!
+Create a Simple Broadcast Receiver (Dynamic and static registration, sending the Broadcast message and
+receiving the Broadcast with sent message).
+
+### Future Improvements:
+Apply the Broadcast Receiver to send an SMS (partially done).
