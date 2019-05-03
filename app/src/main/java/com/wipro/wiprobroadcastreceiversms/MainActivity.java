@@ -44,9 +44,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         intent.setAction("com.wipro.wiprobroadcastreceiversms.testbroadcast");
+        intent.putExtra("Broadcast_Receiver_Test", "This is a Test Message sent by Broadcast!");
         sendBroadcast(intent);
 
-        Toast.makeText(this, "Broadcast Receiver SENT successfully!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Broadcast SENT successfully!", Toast.LENGTH_SHORT).show();
     }
 
     @Override
