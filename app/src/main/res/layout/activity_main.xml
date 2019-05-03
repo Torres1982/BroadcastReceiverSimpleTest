@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/lightGreen">
     <Button
-        android:id="@+id/button_send_sms"
+        android:id="@+id/button_send_broadcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/fifty_dp_margin"

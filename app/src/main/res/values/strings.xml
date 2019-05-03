@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">Broadcast Receiver SMS</string>
-    <string name="autofill_hint">Send Message</string>
-    <string name="phone_number_hint">Enter Phone Number</string>
-    <string name="sms_message_hint">Enter Your Message</string>
+    <string name="app_name">Broadcast Receiver Simple Test</string>
     <string name="send_broadcast">Send Broadcast</string>
 </resources>
